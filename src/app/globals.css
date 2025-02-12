@@ -1,0 +1,426 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* @keyframes slideIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+} */
+.nav{
+  color: white;
+  display: flex;
+  font-size: x-large;
+  margin-left: 55%;
+  list-style: none;
+  position:fixed;
+  font-family: "Roboto";
+  font-weight: 400;
+  line-height: 12px;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  top: 20px;
+  gap: 50px;
+  box-shadow:  0 8 20px rgb(69, 146, 209);
+ padding: 15px;
+ border-radius: 20px;
+ font-weight: bold;
+}
+.nav:hover{
+  background-color: rgb(69, 146, 209);
+  transition-duration: 0.30s;
+  line-height: 25px;
+}
+.div-intro{
+  color: white;
+  font-weight: bold;
+  font-size: 50px;
+  padding-top: 180px;
+  margin-left: 200px;
+  font-family: initial;
+  padding-bottom: 6%;
+}
+.over-view{
+  font-Size: 30px;
+  font-Weight: lighter;
+  font-Family: serif
+}
+.profile-pic{
+   margin-left: 600px;
+   margin-top: -350px;
+   width: 300px;
+   height: 350px;
+   border-radius: 50%;
+   box-shadow: 0 0 80px rgb(69, 146, 209);
+}
+.hire-me{
+  border: 1px solid red;
+  padding: 10px;
+  font-size: 20px;
+   margin-left: 200px;
+   border-radius: 20px;
+   box-shadow:  0 0 20px red;
+    transition: 0.5s;
+}
+.hire-me:hover{
+  box-shadow:  0 0 100px red;
+  color: red;
+  letter-spacing: 0.25em;
+ 
+}
+b{
+  color: red;
+}
+.footer{
+  color: white;
+}
+.index{
+  color: white;
+  display: flex;
+  font-size: x-large;
+  justify-content: center;
+  list-style: none;
+  font-family: "serif";
+  font-weight: 400;
+  padding-top: 150px;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  gap: 50px;
+}
+.info{
+  color: white;
+  font-size: large;
+  list-style: none;
+  font-family: "serif";
+  font-weight: 400;
+  margin-left: 30%;
+  margin-top: 5%;
+  letter-spacing: 0.1em;
+}
+.map{
+  width: 50px;
+  height: 30px;
+  margin-left: 45%;
+  margin-top: -200px;
+ 
+}
+.contact{
+  margin-left: 45%;
+  margin-top: 60px;
+}
+.footer-email{
+  margin-left: 45%;
+  margin-top: 60px;
+}
+.map-vec{
+  color:white;
+   margin-left:43%;
+   margin-top:-190px
+}
+.phone-vec{
+  margin-left:43% ;
+  margin-Top:73px
+}
+.email-vec{
+  margin-Left:43% ;
+  margin-Top:73px
+}
+.face-vec{
+color:blue;
+ font-Size:50px;
+  margin-Left:63%;
+  margin-Top:-210px
+}
+.link-vec{
+  color:blue;
+  font-Size:50px;
+   margin-Left:70%;
+   margin-Top:50px
+}
+.insta-vec{
+  color:rgb(190, 41, 146) ;
+   font-Size:50px;
+    margin-Left:70%;
+    margin-Top:-150px
+}
+.git-vec{
+  color:white;
+   font-Size:50px;
+    margin-Left:63%;
+    margin-Top:50px
+}
+h1{
+  color: white;
+  font-weight: bolder;
+  font-size: 40px;
+  margin-left: 30%;
+  padding-top: 100px;
+}
+.about-para{
+  color: white;
+  justify-items:center ;
+  font-family: serif;
+  letter-spacing: 0.25em;
+  margin-left: 18%;
+  font-size: 20px;
+  margin-top: 60px;
+  padding-bottom: 8%;
+}
+.f-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.border {
+  color: white;
+  border: 2px solid blue;
+  font-size: 30px;
+  margin: -40%;
+  padding-left: 30%;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
+    rgba(0, 0, 0, 0.22) 0px 15px 12px;
+  margin-top: 20%;
+  border-radius: 10%;
+  margin-bottom: 20px;
+}
+h2{
+  color: white;
+  font-weight: bolder;
+  font-size: 40px;
+  margin-left: 30%;
+  padding-top: 70px;
+  padding-bottom: 60px;
+}
+
+.submit {
+  margin-top: 5px;
+  margin-left: 70%;
+  border: 2px solid blue;
+  padding: 15px;
+  box-shadow: white 0px 5px 30px;
+  border-radius: 30px;
+  margin-bottom: 40px;
+}
+.submit:hover {
+  background-color: blue;
+  color: white;
+  transition-duration: 1s;
+}
+
+input,textarea {
+  
+  padding: 5px;
+  border: 1px solid blue;
+  border-radius: 10px;
+  margin: 10px;
+  background-color: black;
+}
+
+select,textarea{
+  background-color: black;
+  border: 1px solid blue;
+  padding: 5px;
+  border-radius: 10px;
+  margin: 10px;
+}
+
+@media (max-width: 320px) {
+  .nav {
+    font-size: small;
+    margin-left: 20px;
+   display: flex;
+    gap: 20px;
+    top: 10px;
+    padding: 10px;
+    border-radius: 10px;
+  }
+  
+  .div-intro {
+    font-size: 24px;
+    padding-top: 80px;
+    margin-left: 20px;
+    text-align: center;
+  }
+  
+  .profile-pic {
+    width: 120px;
+    height: 120px;
+    margin: 20px auto;
+    margin-top: 20px;
+    box-shadow: 0 0 50px rgb(69, 146, 209);
+  }
+  
+  .hire-me {
+    font-size: 16px;
+    margin-left: 20px;
+    padding: 8px;
+    box-shadow: 0 0 10px red;
+    text-align: center;
+    width: 80%;
+  }
+  
+  .index {
+    font-size: 10px;
+    padding-top: 50%;
+    gap: 15px;
+    text-align: center;
+    display: flex;
+    
+  }
+  
+  .info {
+    font-size: 10px;
+    margin-left: 15%;
+    margin-top: 20px;
+    
+  }
+  
+  .map {
+    margin-left: 40%;
+    margin-top: -100px;
+  }
+  
+  .contact, .footer-email {
+    margin-left: 0;
+    margin-top: 20px;
+    text-align: center;
+    font-size: 10px;
+  }
+  .map-vec,
+  .phone-vec,
+  .email-vec
+  {
+    display: none;
+  }
+.face-vec
+ {
+    font-size: 30px; 
+    margin-left: 65%; 
+    margin-top: -30%; 
+  }
+  .link-vec{
+    font-size: 30px; 
+    margin-left: 80%; 
+    margin-top: 7%; 
+  }
+  .insta-vec{
+    font-size: 30px; 
+    margin-left: 80%; 
+    margin-top: -25%; 
+  }
+.git-vec{
+  font-size: 30px; 
+  margin-left: 65%; 
+  margin-top: 6%; 
+}
+h1{
+  font-size: 30px;
+  align-items: center;
+  padding-top: 20%;
+ 
+}
+.about-para{
+  font-size:13.50px ;
+  align-items: center;
+  margin-top: 20px;
+  margin-left: 10px;
+  margin-bottom: -18px;
+}
+.about-para .res-hide{
+  display: none;
+}
+.f-div {
+  flex-direction:column;
+  padding: 10px;
+}
+
+.border {
+  font-size: 20px;
+  padding: 10px;
+  margin: 10px; 
+  margin-top: 55px;
+  border-radius: 20px;
+  padding-left: 40px;
+}
+
+h2 {
+  font-size: 24px; 
+  margin-left: 0; 
+  text-align: center; 
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.submit {
+  margin-left: 0;
+  width: 80%; 
+  padding: 10px; 
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+input, textarea, select {
+  width: 90%;
+  margin: 5px 0; 
+  padding: 8px;
+}
+.radio{
+ padding-left: -40px;
+ flex-direction: none;
+ display: flex;
+ padding-right: 90px;
+}
+}
+.puff-in-center {
+	-webkit-animation: puff-in-center 0.7s cubic-bezier(0.470, 0.000, 0.745, 0.715) 1s both;
+	        animation: puff-in-center 0.7s cubic-bezier(0.470, 0.000, 0.745, 0.715) 1s both;
+}
+/* ----------------------------------------------
+ * Generated by Animista on 2024-11-30 19:46:9
+ * Licensed under FreeBSD License.
+ * See http://animista.net/license for more info. 
+ * w: http://animista.net, t: @cssanimista
+ * ---------------------------------------------- */
+
+/**
+ * ----------------------------------------
+ * animation puff-in-center
+ * ----------------------------------------
+ */
+ @-webkit-keyframes puff-in-center {
+  0% {
+    -webkit-transform: scale(2);
+            transform: scale(2);
+    -webkit-filter: blur(4px);
+            filter: blur(4px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    -webkit-filter: blur(0px);
+            filter: blur(0px);
+    opacity: 1;
+  }
+}
+@keyframes puff-in-center {
+  0% {
+    -webkit-transform: scale(2);
+            transform: scale(2);
+    -webkit-filter: blur(4px);
+            filter: blur(4px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    -webkit-filter: blur(0px);
+            filter: blur(0px);
+    opacity: 1;
+  }
+}
